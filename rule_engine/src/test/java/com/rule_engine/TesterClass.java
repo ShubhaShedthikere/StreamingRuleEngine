@@ -133,7 +133,7 @@ class TesterClass {
 
         // assert statements
 
-        assertEquals(false, RuleMatcher.rule(hm), "");
+        assertEquals(true, RuleMatcher.rule(hm), "");
 
     }
 
